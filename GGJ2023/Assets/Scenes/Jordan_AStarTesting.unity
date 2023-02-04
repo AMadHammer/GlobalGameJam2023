@@ -5161,7 +5161,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 1722501718}
+  target: {fileID: 1349186588}
 --- !u!114 &235360793
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29117,7 +29117,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918481, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: m_Name
-      value: PlayerArmature
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 4416926081852918490, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
       propertyPath: GroundLayers.m_Bits
@@ -29162,6 +29162,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!4 &1349186588 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3893294197879345259, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+  m_PrefabInstance: {fileID: 1349186578}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1349456080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -36960,7 +36965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 739230869707696062, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player.old
       objectReference: {fileID: 0}
     - target: {fileID: 739230869707696062, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
       propertyPath: m_IsActive
@@ -36976,11 +36981,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
---- !u!4 &1722501718 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-  m_PrefabInstance: {fileID: 1722501717}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1723858095
 PrefabInstance:
   m_ObjectHideFlags: 0
