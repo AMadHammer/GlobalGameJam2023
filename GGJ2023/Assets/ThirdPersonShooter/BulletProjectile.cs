@@ -8,7 +8,7 @@ public class BulletProjectile : MonoBehaviour {
     [SerializeField] private Transform vfxHitRed;
 
     private Rigidbody bulletRigidbody;
-
+    public int damageAmount = 20;
     private void Awake() {
         bulletRigidbody = GetComponent<Rigidbody>();
     }
@@ -19,6 +19,12 @@ public class BulletProjectile : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other) {
+
+         if(other.tag == "Dragon"){
+            transform.parent = other.transform;
+            other.GetComponent<Dragon>().TakeDamage(damageAmount);
+        }
+        
         if (other.GetComponent<BulletTarget>() != null) {
             // Hit target
             Instantiate(vfxHitGreen, transform.position, Quaternion.identity);
