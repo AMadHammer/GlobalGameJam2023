@@ -25,7 +25,7 @@ public class ChaseState : StateMachineBehaviour
         if(distance > 15)
             animator.SetBool("isChasing", false);
         if(distance < 3f)
-            animator.SetBool("isAttacking", true); AudioManager.instance.Play("DragonAttack");
+            animator.SetBool("isAttacking", true); 
             
     }
 
