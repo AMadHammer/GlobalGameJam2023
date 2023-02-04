@@ -29130,6 +29130,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8338988566280778637, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
   m_PrefabInstance: {fileID: 1349186578}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1349186580 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4416926081852918481, guid: 64dce48905ffd9b4293e595fa6941544, type: 3}
+  m_PrefabInstance: {fileID: 1349186578}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1349186581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1349186580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbca7e4bd67998a40892c87b72c8643b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnDiamondCollected:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1800323997}
+        m_TargetAssemblyTypeName: InventoryUI, Assembly-CSharp
+        m_MethodName: UpdateDiamondText
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1349456080
 PrefabInstance:
   m_ObjectHideFlags: 0
