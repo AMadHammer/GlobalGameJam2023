@@ -36777,6 +36777,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 100
+  animator: {fileID: 0}
 --- !u!4 &1621362773
 Transform:
   m_ObjectHideFlags: 0
