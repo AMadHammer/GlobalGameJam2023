@@ -172,10 +172,10 @@ namespace StarterAssets
 
         private void AimShoot(){
 
-            if(_input.isAiming && Grounded && !_input.sprint){
+            if(_input.aim && Grounded && !_input.sprint){
 
-                _animator.SetBool("Aiming", _input.isAiming);
-                _animator.SetBool("Shooting", _input.isShooting);
+                _animator.SetBool("Aiming", _input.aim);
+                _animator.SetBool("Shooting", _input.shoot);
                 playerFollowCamera.SetActive(false);
                 playerAimCamera.SetActive(true);
             }

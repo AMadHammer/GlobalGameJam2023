@@ -12,13 +12,13 @@ namespace StarterAssets
 		public Vector2 look;
 		public bool jump;
 		public bool sprint;
-<<<<<<< Updated upstream
-		public bool isAiming;
-		public bool isShooting;
-=======
+		//Updated upstream
+		//public bool isAiming;
+		//public bool isShooting;
+
 		public bool aim;
 		public bool shoot;
->>>>>>> Stashed changes
+
 
 		[Header("Movement Settings")]
 		public bool analogMovement;
@@ -50,18 +50,18 @@ namespace StarterAssets
 		{
 			SprintInput(value.isPressed);
 		}
-<<<<<<< Updated upstream
+		// Updated upstream
 		
 		
-		public void OnAiming(InputValue value)
+		/*public void OnAiming(InputValue value)
 		{
 			isAiming = value.isPressed;
 		}
 
 		public void OnShoot(InputValue value){
 			isShooting = value.isPressed;
-		}
-=======
+		}*/
+
 		public void OnAim(InputValue value)
 		{
 			AimInput(value.isPressed);
@@ -71,7 +71,7 @@ namespace StarterAssets
         {
 			ShootInput(value.isPressed);
         }
->>>>>>> Stashed changes
+
 #endif
 
 

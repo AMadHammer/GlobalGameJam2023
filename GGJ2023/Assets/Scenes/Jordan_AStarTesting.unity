@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1611,11 +1611,7 @@ Transform:
   m_Children:
   - {fileID: 1277013815}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 6
-=======
-  m_RootOrder: 8
->>>>>>> Stashed changes
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &64161433
 PrefabInstance:
@@ -1803,9 +1799,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Press key F to enter fly mode
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &68150432
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -2203,9 +2196,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Press SPACE to jump
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &87115884
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -3732,11 +3722,7 @@ RectTransform:
   - {fileID: 120783575}
   - {fileID: 1360702653}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 10
-=======
-  m_RootOrder: 12
->>>>>>> Stashed changes
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4222,11 +4208,7 @@ Transform:
   - {fileID: 1827070861}
   - {fileID: 226083554}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 4
-=======
-  m_RootOrder: 6
->>>>>>> Stashed changes
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &189951554
 PrefabInstance:
@@ -11292,11 +11274,7 @@ Transform:
   - {fileID: 1772577820}
   - {fileID: 2107268959}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 5
-=======
-  m_RootOrder: 7
->>>>>>> Stashed changes
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &543719930
 PrefabInstance:
@@ -14567,7 +14545,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2070925441746177913, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
   m_PrefabInstance: {fileID: 679223992}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1542072022}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 45e653bab7fb20e499bda25e1b646fea, type: 3}
@@ -14884,11 +14862,7 @@ Transform:
   m_Children:
   - {fileID: 235360781}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 8
-=======
-  m_RootOrder: 10
->>>>>>> Stashed changes
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &701738712
 PrefabInstance:
@@ -15368,9 +15342,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Press MIDDLE MOUSE button while aiming to switch shoulders
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &734014448
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -16791,9 +16762,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Hint Placeholder
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &788825188
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -20077,11 +20045,7 @@ Transform:
   - {fileID: 953507692}
   - {fileID: 1523319687}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 15
-=======
-  m_RootOrder: 17
->>>>>>> Stashed changes
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &953507691
 GameObject:
@@ -24238,11 +24202,7 @@ Transform:
   - {fileID: 474178925}
   - {fileID: 1441125646}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 12
-=======
-  m_RootOrder: 14
->>>>>>> Stashed changes
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1145673492
 PrefabInstance:
@@ -25949,11 +25909,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 11
-=======
-  m_RootOrder: 13
->>>>>>> Stashed changes
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1208529686
 GameObject:
@@ -26036,11 +25992,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 16
-=======
-  m_RootOrder: 18
->>>>>>> Stashed changes
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1210663469
 PrefabInstance:
@@ -29257,7 +29209,7 @@ MonoBehaviour:
         m_MethodName: UpdateDiamondText
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgument: {fileID: 1349186589}
           m_ObjectArgumentAssemblyTypeName: PlayerInventory, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -29376,9 +29328,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Hold SHIFT to sprint while flying
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &1350230336
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -30314,11 +30263,7 @@ Transform:
   m_Children:
   - {fileID: 600102696}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 7
-=======
-  m_RootOrder: 9
->>>>>>> Stashed changes
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1395963127
 PrefabInstance:
@@ -32780,11 +32725,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 9
-=======
-  m_RootOrder: 11
->>>>>>> Stashed changes
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1526205756
 PrefabInstance:
@@ -33275,6 +33216,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5463420003555823367, guid: e2ebaaecb29dfdb4e806473d3680c0e6, type: 3}
   m_PrefabInstance: {fileID: 1541838884}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1542072022 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2070925441746177671, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+  m_PrefabInstance: {fileID: 679223992}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1547787648
 PrefabInstance:
@@ -36263,11 +36209,7 @@ Transform:
   m_Children:
   - {fileID: 1897239228}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 13
-=======
-  m_RootOrder: 15
->>>>>>> Stashed changes
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1683522714
 PrefabInstance:
@@ -36969,98 +36911,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8698176589872578882, guid: d0c505c7afbdc1345928d95a0763ac01, type: 3}
   m_PrefabInstance: {fileID: 1718256386}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream
-=======
---- !u!1001 &1722501717
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 739230869279755968, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: XAxis
-      value: Mouse X
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869279755968, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: YAxis
-      value: Mouse Y
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869279755971, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.75
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869696195262, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_RootOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -15
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.22
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -29
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406238, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707406304, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.01
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707696062, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_Name
-      value: Player.old
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230869707696062, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 739230870378781391, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: debugTransform
-      value: 
-      objectReference: {fileID: 1208529690}
-    - target: {fileID: 739230870378781391, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
-      propertyPath: aimColliderLayerMask.m_Bits
-      value: 2147483647
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 99aff40f3c93eea4eaf473f85c4c09c6, type: 3}
->>>>>>> Stashed changes
 --- !u!1001 &1723858095
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -38545,9 +38395,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Press key F to land
-  message2: This concludes the tutorial!
-  changeMessageKey: 102
 --- !u!135 &1772577822
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -41057,6 +40904,11 @@ Transform:
   m_Father: {fileID: 1280405526}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1937842239 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2070925441746177671, guid: a1a802ecaf6775746bb2a929fb554ad8, type: 3}
+  m_PrefabInstance: {fileID: 143639130}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1939380558 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 928163671453635322, guid: 2f98a40364f8e46438575ff89eb48737, type: 3}
@@ -42070,11 +41922,7 @@ Transform:
   - {fileID: 1564984229}
   - {fileID: 1521315980}
   m_Father: {fileID: 0}
-<<<<<<< Updated upstream
-  m_RootOrder: 14
-=======
-  m_RootOrder: 16
->>>>>>> Stashed changes
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1989134865
 PrefabInstance:
@@ -43490,9 +43338,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Hold RIGHT MOUSE button to enter aim mode
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &2039809333
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45596,9 +45441,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Hold SHIFT to sprint
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &2120314935
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -45666,9 +45508,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f86760de18a61b34e84d55ada8244805, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  message: Use the MOUSE to look around Use WASD keys to move
-  message2: 
-  changeMessageKey: 0
 --- !u!135 &2120853545
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -47395,6 +47234,10 @@ MonoBehaviour:
   BottomClamp: -30
   CameraAngleOverride: 0
   LockCameraPosition: 0
+  arrowObject: {fileID: 0}
+  arrowPoint: {fileID: 0}
+  playerFollowCamera: {fileID: 1937842239}
+  playerAimCamera: {fileID: 1542072022}
 --- !u!143 &4416926082665201353
 CharacterController:
   m_ObjectHideFlags: 0
@@ -48234,8 +48077,6 @@ MonoBehaviour:
   debugTransform: {fileID: 1208529690}
   pfBulletProjectile: {fileID: 6863857337172796870, guid: 9fc5deab5fef94d41b92a7112049f302, type: 3}
   spawnBulletPosition: {fileID: 761606570}
-  vfxHitGreen: {fileID: 0}
-  vfxHitRed: {fileID: 0}
   crosshair: {fileID: 1360702654}
 --- !u!4 &6983258930783979226
 Transform:

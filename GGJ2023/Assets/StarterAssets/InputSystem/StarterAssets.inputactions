@@ -42,15 +42,9 @@
                     "initialStateCheck": false
                 },
                 {
-<<<<<<< Updated upstream
-                    "name": "Aiming",
-                    "type": "PassThrough",
-                    "id": "50b11b6e-be9a-4f8a-9075-8bc1cfe5d2f1",
-=======
                     "name": "Aim",
                     "type": "PassThrough",
                     "id": "87e83834-f000-4ade-90e5-8c595d3783cd",
->>>>>>> Stashed changes
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -58,15 +52,9 @@
                 },
                 {
                     "name": "Shoot",
-<<<<<<< Updated upstream
-                    "type": "PassThrough",
-                    "id": "aa05779e-b18a-499d-a9dc-3a184c058759",
-                    "expectedControlType": "",
-=======
                     "type": "Button",
                     "id": "1219edc9-0363-470d-8f10-bff1dcc4b4d4",
                     "expectedControlType": "Button",
->>>>>>> Stashed changes
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -251,33 +239,17 @@
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
-                    "id": "48b287a6-eed6-40af-8066-fdaeed8435fe",
-                    "path": "<Mouse>/rightButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Aiming",
-=======
                     "id": "861a5f0d-7c8f-4b0d-86f6-e61ded9299a0",
                     "path": "<Mouse>/rightButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "Aim",
->>>>>>> Stashed changes
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-<<<<<<< Updated upstream
-                    "id": "bb55ae39-f451-4392-a86b-5d641691417d",
-                    "path": "<Mouse>/leftButton",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-=======
                     "id": "82a257cd-1dff-427b-9f85-183471e79263",
                     "path": "<Gamepad>/leftTrigger",
                     "interactions": "",
@@ -305,7 +277,6 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
->>>>>>> Stashed changes
                     "action": "Shoot",
                     "isComposite": false,
                     "isPartOfComposite": false
