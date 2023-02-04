@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+//using UnityEngine.InputSystem;
 
 // AimBehaviour inherits from GenericBehaviour. This class corresponds to aim and strafe behaviour.
 public class AimBehaviourBasic : GenericBehaviour
@@ -12,6 +13,10 @@ public class AimBehaviourBasic : GenericBehaviour
 
 	private int aimBool;                                                  // Animator variable related to aiming.
 	private bool aim;                                                     // Boolean to determine whether or not the player is aiming.
+
+	// aim collider for the RayCast
+	[SerializeField] private LayerMask aimColliderLayerMask = new LayerMask();
+	[SerializeField] private Transform debugTransform;
 
 	// Start is always called after any Awake functions.
 	void Start ()
@@ -45,6 +50,8 @@ public class AimBehaviourBasic : GenericBehaviour
 
 		// Set aim boolean on the Animator Controller.
 		behaviourManager.GetAnim.SetBool (aimBool, aim);
+
+		
 	}
 
 	// Co-rountine to start aiming mode with delay.
@@ -66,6 +73,13 @@ public class AimBehaviourBasic : GenericBehaviour
 			behaviourManager.GetAnim.SetFloat(speedFloat, 0);
 			// This state overrides the active one.
 			behaviourManager.OverrideWithBehaviour(this);
+			//  find screen center point (cursor) and raycast it to send out a projectile!
+			Vector2 screenCenterPoint = new Vector2(Screen.width / 2f, Screen.height / 2f);
+			Ray ray = Camera.main.ScreenPointToRay(screenCenterPoint);
+			if (Physics.Raycast(ray, out RaycastHit raycastHit, 999f, aimColliderLayerMask))
+			{
+				debugTransform.position = raycastHit.point;
+			}
 		}
 	}
 
