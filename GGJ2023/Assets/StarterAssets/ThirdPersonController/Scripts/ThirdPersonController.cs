@@ -106,6 +106,11 @@ namespace StarterAssets
         private StarterAssetsInputs _input;
         private GameObject _mainCamera;
 
+        public GameObject arrowObject;
+        public Transform arrowPoint;
+        public GameObject playerFollowCamera;
+        public GameObject playerAimCamera;
+
         private const float _threshold = 0.01f;
 
         private bool _hasAnimator;
@@ -166,13 +171,24 @@ namespace StarterAssets
 
             if(_input.isAiming && Grounded && !_input.sprint){
 
-                //aim animation
+                _animator.SetBool("Aiming", _input.isAiming);
+                _animator.SetBool("Shooting", _input.isShooting);
+                playerFollowCamera.SetActive(false);
+                playerAimCamera.SetActive(true);
             }
             else{
-                //stop animation
+                _animator.SetBool("Aiming", false);
+                _animator.SetBool("Shooting", false);
+                  playerFollowCamera.SetActive(true);
+                playerAimCamera.SetActive(false);
             }
         }
 
+        public void Shoot() {
+
+           GameObject arrow = Instantiate(arrowObject, arrowPoint.position, transform.rotation);
+           arrow.GetComponent<Rigidbody>().AddForce(transform.forward * 25f, ForceMode.Impulse);
+        }
         private void LateUpdate()
         {
             CameraRotation();

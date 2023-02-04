@@ -12,9 +12,12 @@ public class Dragon : MonoBehaviour
     {
         HP -= damageAmount;
         if(HP <= 0){
+            AudioManager.instance.Play("DragonDeath");
             animator.SetTrigger("die");
+            GetComponent<Collider>().enabled = false;
         }
         else{
+            AudioManager.instance.Play("DragonDamage");
            animator.SetTrigger("damage");
         }
     }
