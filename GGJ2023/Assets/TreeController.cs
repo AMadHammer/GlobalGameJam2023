@@ -22,6 +22,8 @@ public class TreeController : MonoBehaviour
             {
                 var temp = transform.localScale;
                 temp.y += 0.001f;
+                temp.x += 0.001f;
+                temp.z += 0.001f;
                 transform.localScale = temp;
             }
         }    
