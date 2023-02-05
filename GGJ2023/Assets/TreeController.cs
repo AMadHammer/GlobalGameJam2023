@@ -5,7 +5,8 @@ using UnityEngine;
 public class TreeController : MonoBehaviour
 {
 
-    public bool BucketsCollected = false;
+    public bool AllBucketsCollected = false;
+    public int BucketsToCollect;  
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +17,7 @@ public class TreeController : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        if (BucketsCollected)
+        if (AllBucketsCollected)
         {
             if (transform.localScale.y < 1)
             {
@@ -29,6 +30,17 @@ public class TreeController : MonoBehaviour
         }    
     }
 
+    //when you are a distance from the tree
+    private void OnTriggerEnter(Collider collision)
+    {
+        if (collision.gameObject.name == "PlayerSkeleton")
+        {
+            PlayerInventory playerInventory = collision.GetComponent<PlayerInventory>();
 
-    
+            if (playerInventory.NumberOfBuckets == BucketsToCollect)
+                AllBucketsCollected = true;
+        }
+    }
+
+
 }
