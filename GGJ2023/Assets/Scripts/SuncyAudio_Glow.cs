@@ -5,7 +5,7 @@ using UnityEngine;
 public class SuncyAudio_Glow : MonoBehaviour
 {
     Transform player;
-    public Light suncyLight;
+    Light suncyLight;
 
 
     IEnumerator LightGlow(Light light, float intensity, float duration)
@@ -22,6 +22,7 @@ public class SuncyAudio_Glow : MonoBehaviour
 
     IEnumerator WaterNearby()
     {
+        yield return new WaitForSeconds(6f);
         float randomSeconds = Random.Range(80f, 180f);
         AudioManager.instance.Play("WaterNearby");
         yield return new WaitForSeconds(randomSeconds);
