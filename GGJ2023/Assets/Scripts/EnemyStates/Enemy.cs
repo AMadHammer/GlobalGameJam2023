@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    private int HP = 50;
+    private int HP = 100;
     public Slider healthBar;
 
     public Animator animator;
@@ -21,13 +21,13 @@ public class Enemy : MonoBehaviour
         HP -= damageAmount;
         if (HP <= 0)
         {
-            AudioManager.instance.Play("DragonDeath");
+            //AudioManager.instance.Play("DeathSound");
             animator.SetTrigger("die");
             GetComponent<Collider>().enabled = false;
         }
         else
         {
-            AudioManager.instance.Play("DragonDamage");
+            //AudioManager.instance.Play("DamageSound");
             animator.SetTrigger("damage");
         }
     }

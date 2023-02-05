@@ -22,9 +22,14 @@ public class BulletProjectile : MonoBehaviour {
 
          if(other.tag == "Dragon"){
             transform.parent = other.transform;
-            other.GetComponent<Dragon>().TakeDamage(damageAmount);
+            other.GetComponent<Enemy>().TakeDamage(damageAmount);
         }
-        
+
+        if(other.CompareTag("Enemy")){
+            transform.parent = other.transform;
+            other.GetComponent<Enemy>().TakeDamage(damageAmount);
+        }
+
         if (other.GetComponent<BulletTarget>() != null) {
             // Hit target
             Instantiate(vfxHitGreen, transform.position, Quaternion.identity);
