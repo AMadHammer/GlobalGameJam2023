@@ -6,17 +6,23 @@ public class TreeController : MonoBehaviour
 {
 
     public bool AllBucketsCollected = false;
-    public int BucketsToCollect;  
+    public int BucketsToCollect;
+    public PlayerInventory playerInventory;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        //playerInventory = playerInventory.GetComponent<PlayerInventory>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
-    {
+    {        
+        if(playerInventory.NumberOfBuckets >= BucketsToCollect)
+        {
+            AllBucketsCollected = true;
+        }
+
         if (AllBucketsCollected)
         {
             if (transform.localScale.y < 1)

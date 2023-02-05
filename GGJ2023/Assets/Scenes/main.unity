@@ -11144,6 +11144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AllBucketsCollected: 0
   BucketsToCollect: 4
+  playerInventory: {fileID: 5085302063552325820}
 --- !u!1 &812943898
 GameObject:
   m_ObjectHideFlags: 0
