@@ -20,10 +20,10 @@
                 "invertFalloff": false,
                 "selectedBrushTab": "All",
                 "selectedBrushId": "73f0185efb84025498f560d45340df93",
-                "brushSize": 11.0,
+                "brushSize": 1.0,
                 "brushSpeed": 0.10000000149011612,
                 "brushRoundness": 1.0,
-                "brushAngle": 0.0,
+                "brushAngle": 1.0,
                 "brushFalloff": {
                     "serializedVersion": "2",
                     "m_Curve": [
@@ -62,7 +62,7 @@
                 "maxRandomRotation": 180.0,
                 "useRandomOffset": false,
                 "randomOffset": 30.0,
-                "invertBrushTexture": false
+                "invertBrushTexture": true
             }
         },
         {
@@ -73,7 +73,7 @@
                 "selectedBrushTab": "All",
                 "selectedBrushId": "_DefaultFalloffBrushName",
                 "brushSize": 9.0,
-                "brushSpeed": 100.0,
+                "brushSpeed": 1.0,
                 "brushRoundness": 1.0,
                 "brushAngle": 0.0,
                 "brushFalloff": {
@@ -124,8 +124,8 @@
                 "invertFalloff": false,
                 "selectedBrushTab": "All",
                 "selectedBrushId": "_DefaultFalloffBrushName",
-                "brushSize": 78.0,
-                "brushSpeed": 100.0,
+                "brushSize": 11.0,
+                "brushSpeed": 1.7999999523162842,
                 "brushRoundness": 1.0,
                 "brushAngle": 0.0,
                 "brushFalloff": {
@@ -176,8 +176,8 @@
                 "invertFalloff": false,
                 "selectedBrushTab": "All",
                 "selectedBrushId": "_DefaultFalloffBrushName",
-                "brushSize": 35.0,
-                "brushSpeed": 100.0,
+                "brushSize": 10.0,
+                "brushSpeed": 10.0,
                 "brushRoundness": 1.0,
                 "brushAngle": 0.0,
                 "brushFalloff": {
@@ -228,7 +228,7 @@
                 "invertFalloff": false,
                 "selectedBrushTab": "All",
                 "selectedBrushId": "_DefaultFalloffBrushName",
-                "brushSize": 35.0,
+                "brushSize": 1.0,
                 "brushSpeed": 100.0,
                 "brushRoundness": 1.0,
                 "brushAngle": 0.0,
@@ -280,7 +280,7 @@
                 "invertFalloff": false,
                 "selectedBrushTab": "All",
                 "selectedBrushId": "_DefaultFalloffBrushName",
-                "brushSize": 57.0,
+                "brushSize": 12.0,
                 "brushSpeed": 100.0,
                 "brushRoundness": 1.0,
                 "brushAngle": 0.0,
@@ -332,11 +332,11 @@
     "generateRampCurveInXAxis": true,
     "generateHeight": 5.0,
     "flattenMode": 0,
-    "setHeight": 8.600000381469727,
-    "boxFilterSize": 7,
+    "setHeight": 1.0,
+    "boxFilterSize": 1,
     "smoothingIterations": 1,
     "mouldToolRaycastOffset": 0.0,
-    "mouldToolRaycastTopDown": false,
+    "mouldToolRaycastTopDown": true,
     "mouldToolBoxFilterSize": 7,
     "mouldAllIterations": 3,
     "targetOpacity": 1.0,
