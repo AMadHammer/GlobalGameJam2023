@@ -20,10 +20,10 @@
                 "invertFalloff": false,
                 "selectedBrushTab": "All",
                 "selectedBrushId": "73f0185efb84025498f560d45340df93",
-                "brushSize": 1.0,
+                "brushSize": 27.0,
                 "brushSpeed": 0.10000000149011612,
                 "brushRoundness": 1.0,
-                "brushAngle": 1.0,
+                "brushAngle": -180.0,
                 "brushFalloff": {
                     "serializedVersion": "2",
                     "m_Curve": [
@@ -124,7 +124,7 @@
                 "invertFalloff": false,
                 "selectedBrushTab": "All",
                 "selectedBrushId": "_DefaultFalloffBrushName",
-                "brushSize": 11.0,
+                "brushSize": 49.0,
                 "brushSpeed": 1.7999999523162842,
                 "brushRoundness": 1.0,
                 "brushAngle": 0.0,
