@@ -340,6 +340,6 @@
     "mouldToolBoxFilterSize": 7,
     "mouldAllIterations": 3,
     "targetOpacity": 1.0,
-    "selectedTextureIndex": 0,
+    "selectedTextureIndex": 2,
     "mainDirectory": "Assets/TerrainFormer/"
 }
